@@ -132,7 +132,7 @@ def action():
 		print "                   \033[1;92mArea Codes "
 		try:
 			c = raw_input("\033[1;91mChoose Area Code  : ")
-			k="+"
+			k="00"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
